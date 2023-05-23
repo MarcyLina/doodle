@@ -17,4 +17,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-ee/system/user/cache/*ee/system/user/logs/*
+ee/system/user/cache/*
+ee/system/user/logs/*
