@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ global.site_name }}</title>
+
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body>
+		<div class="mx-auto max-w-7xl text-center px-4 sm:px-6 lg:px-8">
+			<div class="mx-auto max-w-4xl">
+				<h1 class="text-3xl py-8 capitalize">Welcome to {{ global.site_name }}!</h1>
+				{% include 'ee::_partials/blog' %}
+			</div>
+		</div>
+	</body>
+</html>

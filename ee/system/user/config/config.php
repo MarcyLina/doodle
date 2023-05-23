@@ -1,5 +1,6 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+$config['site_license_key'] = '';
 // ExpressionEngine Config Items
 // Find more configs and overrides at
 // https://docs.expressionengine.com/latest/general/system-configuration-overrides.html
